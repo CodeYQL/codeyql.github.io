@@ -1,0 +1,107 @@
+html, body {
+  font-family: 'Overpass Mono', monospace;
+  background: #191919;
+  color: #fafafa;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+}
+
+.nav {
+  background: #fafafa;
+  color: #191919;
+  padding: 20px 0;
+}
+
+.logo {
+  margin-left: 12px;
+}
+
+.container-fluid {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.description {
+  line-height: 3em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.description span, .description h3 {
+  background: #fff;
+  color: #191919;
+  padding: 4px 12px;
+  display: inline;
+  line-height: 2em !important;
+}
+
+.description span {
+  background: #191919;
+  color: #fafafa;
+}
+
+.description section {
+  background: #fff;
+}
+
+.description section p {
+  line-height: 1.5em !important;
+  padding: 4px 12px;
+  max-width: 400px;
+  color: #191919;
+  display: flex;
+  flex-direction: column;
+}
+
+.next-meetup {
+  border-top: 1px solid #fafafa;
+  box-sizing: border-box;
+  min-height: 500px;
+  background: url('./bridge.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.next-meetup-actions {
+  display: flex;  
+}
+
+.next-meetup-actions a:link {
+  background: #191919;
+  text-align: center;
+  flex: 1;
+  color: #fff;
+  margin: 6px;
+  text-decoration: none;
+}
+
+.next-meetup-actions a:hover {
+  background: #786abe;
+}
+
+.next-meetup-actions a:visited, .next-meetup-actions a:active {
+  color: #fff;
+}
+
+.next-meetup-actions a:link:first-child {
+  margin-right: 0px !important;
+}
+
+.next-meetup .description, .about-codeyql {
+  padding: 50px 0px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P', monospace;
+  font-weight: normal;
+}
+
+p {
+  letter-spacing: -0.05em;
+}
